@@ -1,0 +1,29 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-08-15T05:44:18.314Z",
+    "end": "2022-08-15T05:44:18.476Z",
+    "duration": 162
+  },
+  "tests": [],
+  "pending": [],
+  "failures": [
+    {
+      "title": "returns the customerName",
+      "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'bob'",
+        "showDiff": true,
+        "expected": "bob",
+        "stack": "AssertionError: expected undefined to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:4:38)\n    at processImmediate (node:internal/timers:466:21)"
+      }
+    }
+  ],
+  "passes": []
+}
